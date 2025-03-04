@@ -110,7 +110,7 @@
         {
           "label": "Public URI",
           "name": "PUBLIC_URI",
-          "default": "http://192.168.1.1:8624",
+          "default": "192.168.1.1:8624",
           "description": "Public URI. If you are going to expose this instance to the internet and use it under different domain than 'localhost', you will need to adjust it to the final domain."
         },
         {
@@ -273,7 +273,7 @@
         "Cms"
       ],
       "description": "Cockpit is a headless CMS with an API-first approach that puts content first.",
-      "note": "Link to <a target='_blank' href='https://v1.getcockpit.com/'>Official documentation \ud83d\uddd7</a>.<br>After deployment, continue to setup by visiting <a target='_blank' href='http://localhost:8088/install'>http://localhost:8088/install</a>",
+      "note": "Link to <a target='_blank' href='https://v1.getcockpit.com/'>Official documentation \ud83d\uddd7</a>.<br>After deployment, continue to setup by visiting <a target='_blank' href='localhost:8088/install'>localhost:8088/install</a>",
       "logo": "https://raw.githubusercontent.com/shmolf/portainer-templates/main/assets/logos/cockpit.svg",
       "platform": "linux",
       "image": "agentejo/cockpit:latest",
@@ -3379,7 +3379,7 @@
         }
       ],
       "image": "linuxserver/oscam:latest",
-      "logo": "http://i.imgur.com/8LadrLg.png",
+      "logo": "https://i.imgur.com/8LadrLg.png",
       "name": "oscam",
       "platform": "linux",
       "ports": [
@@ -4844,7 +4844,7 @@
         }
       ],
       "image": "linuxserver/tvheadend:latest",
-      "logo": "http://i.imgur.com/zGSUAT4.png",
+      "logo": "https://i.imgur.com/zGSUAT4.png",
       "name": "tvheadend",
       "platform": "linux",
       "ports": [
@@ -6518,7 +6518,7 @@
       ],
       "description": "ClamAV\u00ae is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.",
       "image": "mkodockx/docker-clamav:alpine",
-      "logo": "http://www.clamav.net/assets/clamav-trademark.png",
+      "logo": "https://www.clamav.net/assets/clamav-trademark.png",
       "name": "clamav",
       "platform": "linux",
       "ports": [
